@@ -45,3 +45,31 @@ export const social = [
     icon: <FaLinkedin />,
   },
 ];
+
+export const slidersData = [
+  {
+    id: 1,
+    image: "https://kig.re/assets/images/posts/cpp/c-cpp.jpg",
+    name: "C++",
+    title: "Huffman Encoding",
+    quote:
+      "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.",
+  },
+  {
+    id: 2,
+    image: "https://d1y2qj23ol72q6.cloudfront.net/2019/06/python-blog-1.jpg",
+    name: "Python",
+    title: "regular guy",
+    quote:
+      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+  },
+  {
+    id: 3,
+    image:
+      "https://www.bleepstatic.com/content/hl-images/2020/08/04/nodejs-header.jpg",
+    name: "NodeJs",
+    title: "regular guy",
+    quote:
+      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+  },
+];

@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
-import HeaderContent from "./header-content";
+import HeaderHero from "./HeaderHero";
+
 function App() {
   return (
     <>
       <Navbar />
-      <HeaderContent />
+      <HeaderHero />
+      {/* <HeaderSlider /> */}
     </>
   );
 }
