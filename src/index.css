@@ -144,7 +144,6 @@ Navbar
 nav {
   background: black;
   box-shadow: var(--light-shadow);
-  width: 100%;
 }
 .nav-header {
   display: flex;
@@ -290,10 +289,6 @@ slide
   right: 0;
 }
 @media screen and (min-width: 800px) {
-  nav {
-    position: absolute;
-    height: 5rem;
-  }
   .nav-center {
     max-width: 1170px;
     margin: 0 auto;
@@ -339,7 +334,7 @@ slide
   }
 
   .slide {
-    height: 94%;
+    height: 94.6%;
     bottom: 0px;
   }
 
