@@ -42,7 +42,7 @@ const HeaderSlider = () => {
             <footer className="slide-footer">
               <h2 style={{ color: "white" }}>Recent projects</h2>
               <div className="slide-info">
-                <h4>{name}</h4>
+                <h3>{name}</h3>
               </div>
               <p style={{ color: "white", fontStyle: "italic" }}>{quote}</p>
               <button className="slide-btn">Read more </button>
@@ -50,8 +50,8 @@ const HeaderSlider = () => {
           </div>
         );
       })}
-      <button className="prev">
-        <FiChevronLeft onClick={() => setIndex(index - 1)} />
+      <button className="prev" onClick={() => setIndex(index - 1)}>
+        <FiChevronLeft />
       </button>
       <button className="next" onClick={() => setIndex(index + 1)}>
         <FiChevronRight />
