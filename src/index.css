@@ -292,7 +292,7 @@ slide
 @media screen and (min-width: 800px) {
   nav {
     position: absolute;
-    height: 6%;
+    height: 5rem;
   }
   .nav-center {
     max-width: 1170px;
