@@ -5,11 +5,7 @@ import smallEclipse from "./images/small-eclipse.svg";
 import bcg from "./images/nav-bcg.jpg";
 // import midEclipse from "./images/mid-eclipse.svg";
 const HeaderHero = () => {
-  return (
-    <section className="Hero">
-      <HeaderSlider />
-    </section>
-  );
+  return <HeaderSlider />;
 };
 
 export default HeaderHero;

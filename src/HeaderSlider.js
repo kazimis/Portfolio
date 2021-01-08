@@ -4,17 +4,17 @@ import { FaQuoteRight } from "react-icons/fa";
 import { slidersData } from "./data";
 
 const HeaderSlider = () => {
-  const [people, setPeople] = useState(slidersData);
+  const [slideData, setSlideData] = useState(slidersData);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const lastIndex = people.length - 1;
+    const lastIndex = slideData.length - 1;
     index < 0
       ? setIndex(lastIndex)
       : index > lastIndex
       ? setIndex(0)
       : setIndex(index);
-  }, [index, people]);
+  }, [index, slideData]);
 
   useEffect(() => {
     let slider = setInterval(() => {
@@ -24,27 +24,29 @@ const HeaderSlider = () => {
   }, [index]);
   return (
     <div>
-      {people.map((person, personIndex) => {
-        const { id, image, name, title, quote } = person;
+      {slideData.map((data, dataIdx) => {
+        const { id, image, name, title, quote } = data;
         let position = "nextSlide";
-        if (personIndex === index) {
+        if (dataIdx === index) {
           position = "activeSlide";
         } else if (
-          personIndex === index - 1 ||
-          (index === 0 && personIndex === people.length - 1)
+          dataIdx === index - 1 ||
+          (index === 0 && dataIdx === slideData.length - 1)
         ) {
           position = "lastSlide";
         }
         return (
           <div key={id} className={`slide ${position}`}>
             <img src={image} alt={name} className="slide-img" />
-            {/* <footer> */}
-            <div className="slide-info">
-              <h4>{name}</h4>
-            </div>
-            <p>{quote}</p>
-            <button className="slide-btn">Read more </button>
-            {/* </footer> */}
+
+            <footer className="slide-footer">
+              <h2 style={{ color: "white" }}>Recent projects</h2>
+              <div className="slide-info">
+                <h4>{name}</h4>
+              </div>
+              <p style={{ color: "white", fontStyle: "italic" }}>{quote}</p>
+              <button className="slide-btn">Read more </button>
+            </footer>
           </div>
         );
       })}

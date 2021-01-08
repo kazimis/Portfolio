@@ -1,5 +1,6 @@
 import React from "react";
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 export const links = [
   {
     id: 1,
@@ -31,7 +32,7 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com",
     icon: <FaFacebook />,
   },
   {
@@ -41,15 +42,21 @@ export const social = [
   },
   {
     id: 3,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/sarajuddin-kazimi/",
     icon: <FaLinkedin />,
+  },
+  {
+    id: 4,
+    url: "https://www.github.com/kazimis",
+    icon: <AiFillGithub />,
   },
 ];
 
 export const slidersData = [
   {
     id: 1,
-    image: "https://kig.re/assets/images/posts/cpp/c-cpp.jpg",
+    image:
+      "https://back2lobby.com/wp-content/uploads/2020/06/sale_25561_primary_image_wide-100827989-large-1024x512.jpg",
     name: "C++",
     title: "Huffman Encoding",
     quote:
@@ -65,11 +72,9 @@ export const slidersData = [
   },
   {
     id: 3,
-    image:
-      "https://www.bleepstatic.com/content/hl-images/2020/08/04/nodejs-header.jpg",
-    name: "NodeJs",
+    image: "https://cdn.wallpapersafari.com/87/57/VKE8r0.jpg",
+    name: "Huffman Compression App",
     title: "regular guy",
-    quote:
-      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+    quote: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
   },
 ];

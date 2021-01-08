@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <h1 className="logo">Hello</h1>
+          <h2 className="logo">Hello</h2>
           <button className="nav-toggle" onClick={() => setShowLink(!showLink)}>
             <FaBars />
           </button>
