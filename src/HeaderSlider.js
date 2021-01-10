@@ -24,12 +24,6 @@ const HeaderSlider = () => {
   }, [index]);
   return (
     <div className="slideContainer">
-      {/* <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-        eligendi dolorum aspernatur deserunt veritatis in error alias ad ratione
-        sapiente sequi officia, animi impedit amet velit ipsum vel est
-        temporibus.
-      </p> */}
       {slideData.map((data, dataIdx) => {
         const { id, image, name, title, quote } = data;
         let position = "nextSlide";
@@ -51,7 +45,9 @@ const HeaderSlider = () => {
               <p
                 style={{
                   fontStyle: "italic",
-                  fontSize: "1.5vw",
+                  fontFamily: "veranda",
+                  fontSize: "1.4vw",
+                  color: "white",
                 }}
               >
                 {quote}
