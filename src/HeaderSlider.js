@@ -23,7 +23,13 @@ const HeaderSlider = () => {
     return () => clearInterval(slider);
   }, [index]);
   return (
-    <div>
+    <div className="slideContainer">
+      {/* <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        eligendi dolorum aspernatur deserunt veritatis in error alias ad ratione
+        sapiente sequi officia, animi impedit amet velit ipsum vel est
+        temporibus.
+      </p> */}
       {slideData.map((data, dataIdx) => {
         const { id, image, name, title, quote } = data;
         let position = "nextSlide";
@@ -39,14 +45,19 @@ const HeaderSlider = () => {
           <div key={id} className={`slide ${position}`}>
             <img src={image} alt={name} className="slide-img" />
 
-            <footer className="slide-footer">
-              <h2 style={{ color: "white" }}>Recent projects</h2>
-              <div className="slide-info">
-                <h3>{name}</h3>
-              </div>
-              <p style={{ color: "white", fontStyle: "italic" }}>{quote}</p>
-              <button className="slide-btn">Read more </button>
-            </footer>
+            <div className="slide-footer">
+              <h2 style={{ fontSize: "3vw" }}>Recent projects</h2>
+              <h3 style={{ fontSize: "2vw" }}>{name}</h3>
+              <p
+                style={{
+                  fontStyle: "italic",
+                  fontSize: "1.5vw",
+                }}
+              >
+                {quote}
+              </p>
+              <button className="slide-btn">Explore </button>
+            </div>
           </div>
         );
       })}
