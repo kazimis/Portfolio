@@ -84,36 +84,36 @@ export const projectsData = [
     id: 1,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
   {
     id: 2,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
   {
     id: 3,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
   {
     id: 4,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
   {
     id: 5,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
   {
     id: 6,
     name: "C++",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaRNm9Wng4xFdqZ3bKyAI-Kcfsnf3Ec5Q9Q&usqp=CAU",
+      "https://theegeek.com/wp-content/uploads/2013/08/c++_this_pointer.png",
   },
 ];

@@ -326,10 +326,10 @@ Projects
 }
 
 .single-project {
-  background: black;
+  background: var(--clr-grey-9);
   border-radius: var(--radius);
   margin: 1rem 7.5%;
-  border: solid;
+  padding: 1rem;
   flex-direction: column;
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -337,14 +337,12 @@ Projects
 .single-project:hover {
   box-shadow: var(--dark-shadow);
 }
-.single-project img {
+.single-project-img {
   width: 100%;
   bottom: 10%;
   object-fit: cover;
   border-top-right-radius: var(--radius);
   border-top-left-radius: var(--radius);
-  align-content: center;
-  border: solid red;
 }
 .project-info {
   text-align: center;
@@ -356,9 +354,6 @@ Projects
   margin-bottom: 0;
 }
 
-.single-project footer {
-  padding: 1.5rem 2rem;
-}
 .single-project .btn {
   display: block;
   margin: 1rem auto 0 auto;
