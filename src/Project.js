@@ -3,25 +3,14 @@ import React, { useState } from "react";
 const Project = ({ id, image, info, price, name, removeProject }) => {
   const [readMore, setReadMore] = useState(false);
   return (
-    <article className="single-tour">
-      <img src={image} alt={name} />
+    <article className="single-project">
       <footer>
-        <div className="tour-info">
+        <img src={image} alt={name} />
+        <div className="project-info">
           <h4>{name}</h4>
-          <h4 className="tour-price">${price}</h4>
         </div>
-        <p>
-          {readMore ? info : `${info.substring(0, 100)}...`}
-          <button
-            onClick={() => {
-              setReadMore(!readMore);
-            }}
-          >
-            {readMore ? "show less" : "read more"}
-          </button>
-        </p>
-        <button className="delete-btn" onClick={() => removeProject(id)}>
-          not interested{" "}
+        <button className="btn" onClick={() => removeProject(id)}>
+          Link
         </button>
       </footer>
     </article>

@@ -9,8 +9,9 @@ function App() {
       <Navbar />
       {/* <div className="slideContainer"> */}
       <HeaderHero />
-      {/* </div> */}
-      {/* <Projects /> */}
+      <main>
+        <Projects />
+      </main>
     </>
   );
 }

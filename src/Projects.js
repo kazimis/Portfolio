@@ -3,11 +3,14 @@ import Project from "./Project";
 import projects, { projectsData } from "./data";
 const Projects = () => {
   return (
-    <div className="projectsContainer">
-      {/* <h2 className="title">My Projects</h2> */}
-      {projectsData.map((project) => {
-        return <Project key={project.id} {...project}></Project>;
-      })}
+    <div>
+      <h2 className="title">My Projects</h2>
+      <div className="underline"></div>
+      <div className="projectsContainer">
+        {projectsData.map((project) => {
+          return <Project key={project.id} {...project}></Project>;
+        })}
+      </div>
     </div>
   );
 };
