@@ -3,15 +3,18 @@ import React, { useState } from "react";
 const Project = ({ id, image, info, price, name, removeProject }) => {
   const [readMore, setReadMore] = useState(false);
   return (
-    <article className="single-project">
-      <img className="single-project-img" src={image} alt={name} />
-      <div className="project-info">
-        <h4>{name}</h4>
+    <div className="col-md-4">
+      <div class="card h-100">
+        <img className="card-img-top" src={image} />
+        <div className="card-body">
+          <h4 className="card-title">{name}</h4>
+          <p className="card-text">{info}</p>
+          <a href="#" className="btn btn-outline-secondary">
+            Source code
+          </a>
+        </div>
       </div>
-      <button className="btn" onClick={() => removeProject(id)}>
-        Link
-      </button>
-    </article>
+    </div>
   );
 };
 

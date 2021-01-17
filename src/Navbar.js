@@ -1,56 +1,56 @@
-import React, { useState, useRef, useEffect } from "react";
-import { FaBars } from "react-icons/fa";
+import React from "react";
+import logo from "./img/logo.png";
 import { links, social } from "./data";
-const Navbar = () => {
-  const [showLink, setShowLink] = useState(false);
-  const linksContainerRef = useRef(null);
-  const linksRef = useRef(null);
-  useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect().height;
-    console.log(linksHeight);
-    showLink
-      ? (linksContainerRef.current.style.height = `${linksHeight}px`)
-      : (linksContainerRef.current.style.height = "0px");
-  }, [showLink]);
-  return (
-    <nav>
-      <div className="nav-center">
-        <div className="nav-header">
-          <h2 className="logo">Hello</h2>
-          <button className="nav-toggle" onClick={() => setShowLink(!showLink)}>
-            <FaBars />
-          </button>
-        </div>
 
-        <div className="links-container" ref={linksContainerRef}>
-          <ul className="links" ref={linksRef}>
+const Navbar = () => {
+  return (
+    <nav className="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          <img src={logo} alt="logo" style={{ height: "40px" }} />
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          {/* links */}
+          <ul className="navbar-nav ml-auto">
             {links.map((link) => {
               const { id, url, text } = link;
               return (
-                <li key={id}>
-                  <a href={url}>{text}</a>
+                <li
+                  key={id}
+                  className={`nav-item ${text === "home" && "active"}`}
+                >
+                  <a className="nav-link text-white" href={url}>
+                    {text}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+
+          {/* social icons  */}
+          <ul className="navbar-nav ml-auto">
+            {social.map((item) => {
+              const { id, url, icon } = item;
+              return (
+                <li key={id} className="nav-item">
+                  <a className="nav-link text-white" href={url}>
+                    {icon}
+                  </a>
                 </li>
               );
             })}
           </ul>
         </div>
-
-        <ul className="social-icons">
-          {social.map((socialIcon) => {
-            const { id, url, icon } = socialIcon;
-            return (
-              <li key={id}>
-                <a href={url}>{icon}</a>
-              </li>
-            );
-          })}
-        </ul>
       </div>
-      {/* <section>
-        <p>dfsdfsfsd</p>
-      </section> */}
     </nav>
   );
 };
-
 export default Navbar;

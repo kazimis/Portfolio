@@ -1,29 +1,45 @@
 import React from "react";
-// import styled from "styled-components";
+import logo from "./img/logo.png";
+import { links, social } from "./data";
 const Footer = () => {
   return (
-    // <Wrapper>
-    <p>
-      &copy; {new Date().getFullYear()} John Smilga. All rights reserved. Built
-      with Gatsby
-    </p>
-    // </Wrapper>
+    <footer>
+      <div className="container-fluid padding">
+        <div className="row text-center">
+          <div class="col-md-4">
+            <img src={logo} style={{ height: "50px" }} />
+          </div>
+          <div class="col-md-4">
+            <h5>Contact</h5>
+            <hr className="light"></hr>
+            <p>604-441-6297</p>
+            <p>sarajkazimi@gmail.com</p>
+            <p>100 street name</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Connect</h5>
+            <hr className="light"></hr>
+            <ul style={{ listStyleType: "none" }}>
+              {social.map((item) => {
+                const { id, url, icon } = item;
+                return (
+                  <li key={id} className="nav-item">
+                    <a className="nav-link text-red" href={url}>
+                      {icon}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="col-12">
+            <hr class="light-100"></hr>
+            <h5>&copy;</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 };
-// const Wrapper = styled.footer`
-//   height: 5rem;
-//   display: grid;
-//   place-items: center;
-//   background: var(--clr-black);
-//   text-align: center;
-//   padding: 1rem;
-//   p {
-//     color: var(--clr-white);
-//     margin-bottom: 0;
-//     @media (max-width: 576px) {
-//       font-size: 0.75rem;
-//     }
-//   }
-// `;
 
 export default Footer;
