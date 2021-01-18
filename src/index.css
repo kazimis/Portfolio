@@ -134,7 +134,7 @@ carousel
 .carousel-item {
   background-image: url("./img/background.png");
   background-size: cover;
-  height: 40vh;
+  height: 60vw;
 }
 
 .carousel-caption {
@@ -144,16 +144,16 @@ carousel
 }
 
 .carousel-caption h1 {
-  font-size: 250%;
+  font-size: 150%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px black;
 }
 
 .carousel-caption h3 {
-  font-size: 100%;
+  font-size: 60%;
   font-weight: 500;
   text-shadow: 1px 1px 10px black;
-  padding-bottom: 1rem;
+  padding-bottom: 0.1rem;
 }
 
 .carousel.carousel-fade .carousel-item {
@@ -180,7 +180,7 @@ carousel
   z-index: 10;
   background-color: #6648b1;
   border: 1px solid #6648b1;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .btn-primary:hover {
