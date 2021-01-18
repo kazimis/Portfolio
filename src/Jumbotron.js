@@ -7,7 +7,7 @@ const Jumbotron = () => {
         <div className="container-fluid padding">
           <div className="row title text-center">
             <div className="col-12">
-              <h1 className="display-4"> Technical Skills</h1>
+              <h2> Technical Skills</h2>
             </div>
             <hr></hr>
             <div className="col-12">

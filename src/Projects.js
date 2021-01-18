@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container-fluid padding">
         <div className="row title text-center">
           <div className="col-12">
-            <h1 className="display-4">All projects</h1>
+            <h2>All projects</h2>
           </div>
           <hr></hr>
         </div>

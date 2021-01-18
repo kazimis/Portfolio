@@ -8,10 +8,7 @@ const Skills = () => {
         {skills.map((skill) => {
           const { id, name, icon, text } = skill;
           return (
-            <div
-              key={id}
-              className="col-xs-12 col-sm-10 col-md-6 col-lg-6 col-xl-2"
-            >
+            <div key={id} className="col-sm">
               <i className={name + " skill-icon"}>{icon}</i>
               <h3>{name}</h3>
             </div>

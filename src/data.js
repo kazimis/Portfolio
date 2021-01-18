@@ -9,6 +9,8 @@ import {
   SiCsharp,
 } from "react-icons/si";
 
+import { DiNodejsSmall } from "react-icons/di";
+
 export const links = [
   {
     id: 1,
@@ -192,4 +194,5 @@ export const skills = [
     text: "Used latest version of Python",
   },
   { id: 7, name: "ReactJs", icon: <SiReact />, text: "React Library" },
+  { id: 8, name: "NodeJs", icon: <DiNodejsSmall />, text: "test" },
 ];

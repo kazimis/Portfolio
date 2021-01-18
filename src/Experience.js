@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="container-fluid padding">
         <div className="row title text-center">
           <div className="col-12">
-            <h1 className="display-4">Experience</h1>
+            <h2>Experience</h2>
           </div>
           <hr></hr>
         </div>
@@ -25,7 +25,7 @@ const Experience = () => {
                   onClick={() => setValue(index)}
                   className={`job-btn ${index === value && "active-btn"}`}
                 >
-                  <h2>{item.company}</h2>
+                  <h3>{item.company}</h3>
                 </button>
               );
             })}
