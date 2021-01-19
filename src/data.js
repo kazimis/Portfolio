@@ -7,6 +7,9 @@ import {
   SiPython,
   SiReact,
   SiCsharp,
+  SiAngular,
+  SiJquery,
+  SiTypescript,
 } from "react-icons/si";
 
 import { DiNodejsSmall } from "react-icons/di";
@@ -86,10 +89,10 @@ export const slidersData = [
 export const projectsData = [
   {
     id: 1,
-    name: "C++",
+    name: "Tetris Game",
     image:
       "https://i.pinimg.com/originals/3f/a9/fe/3fa9fe249f516ff87909b587f7fefc8e.jpg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
+    info: "Tetris game using WebGl and Javascript",
   },
   {
     id: 2,
@@ -132,26 +135,27 @@ export const jobsData = [
   {
     id: "1",
     order: 1,
-    title: "Engineering Intern",
-    dates: "May 2014 - September 2015",
+    title: "IT Technician",
+    dates: "June 2018 - Current",
     duties: [
-      "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
-      "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
-      "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism.",
+      "Provide technical supports to store’s computers and POS system",
+      "Perform preventive and scheduled maintenance to POS systems",
+      "Handle critical situations with high standards and efficient approach to avoid sales delay",
+      "Achieved exemplary punctuality score from company and achieved YVR Star award",
     ],
-    company: "Best Buy",
+    company: "LS Travel",
   },
   {
     id: "2",
     order: 2,
-    title: "Computer Intern",
-    dates: "May 2014 - September 2015",
+    title: "Customer Service",
+    dates: "July 2017 - April 2018",
     duties: [
-      "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
-      "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
-      "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism.",
+      "Responded promptly and professionally to customer inquiries and complaints",
+      "Provided excellent customer service whilst running a till",
+      "Ensured the customers satisfaction through efficient and productive service during busy hours",
     ],
-    company: "Amazon",
+    company: "Safeway",
   },
 ];
 
@@ -195,4 +199,7 @@ export const skills = [
   },
   { id: 7, name: "ReactJs", icon: <SiReact />, text: "React Library" },
   { id: 8, name: "NodeJs", icon: <DiNodejsSmall />, text: "test" },
+  { id: 9, name: "AngularJs", icon: <SiAngular />, text: "test" },
+  { id: 10, name: "jQuery", icon: <SiJquery />, text: "test" },
+  { id: 11, name: "TypeScript", icon: <SiTypescript />, text: "test" },
 ];

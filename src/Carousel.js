@@ -46,15 +46,9 @@ const Carousel = () => {
               key={index}
               className={index === 0 ? "carousel-item active" : "carousel-item"}
             >
-              {/* <img
-                className="carousel-img"
-                key={id}
-                src={nav_bg}
-                alt="sliderImage"
-              /> */}
               <div className="carousel-caption">
                 <h1 className="display-2">Personal Projects</h1>
-                <h3>{title}</h3>
+                <h3 style={{ fontStyle: "italic" }}>{title}</h3>
                 <button type="button" className="btn btn-primary btn-lg">
                   Recent Projects
                 </button>

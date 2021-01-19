@@ -238,6 +238,16 @@ Skill
 .NodeJs {
   color: green;
 }
+.AngularJs {
+  color: red;
+}
+.jQuery {
+  color: rgb(45, 45, 187);
+}
+
+.TypeScript {
+  color: rgb(57, 111, 212);
+}
 .skill-icon {
   font-size: 1rem;
 }
@@ -408,12 +418,17 @@ footer p {
   .btn-primary {
     font-size: 18px;
   }
+  .skill-icon {
+    font-size: 1.5rem;
+  }
   .title {
     width: 80%;
     padding-top: 0.4rem;
   }
   .title hr {
     width: 50%;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
   }
 }
 @media (min-width: 992px) {
@@ -429,6 +444,9 @@ footer p {
   }
   .btn-primary {
     font-size: 22px;
+  }
+  .skill-icon {
+    font-size: 2rem;
   }
   .jobs-center {
     width: 90vw;
@@ -449,18 +467,41 @@ footer p {
   .job-btn:hover {
     box-shadow: -2px 0 purple;
   }
+
+  .title {
+    padding-top: 0.8rem;
+  }
+  .title hr {
+    width: 40%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .carousel-caption h1 {
     font-size: 500%;
+    padding-bottom: 2rem;
   }
 
   .carousel-caption h3 {
     font-size: 300%;
+    padding-bottom: 3rem;
   }
   .btn-primary {
     font-size: 28px;
+  }
+  .skill-icon {
+    font-size: 2.5rem;
+  }
+  .title {
+    width: 90%;
+    padding-top: 0.4rem;
+  }
+  .title hr {
+    width: 30%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 [class*="col-"] {
