@@ -18,7 +18,7 @@ const Projects = () => {
           })}
         </div>
       </div> */}
-      <div id="Projects" class="row text-center bg-light">
+      <div id="Projects" className="container-fluid text-center bg-light">
         <div className="custom-container">
           <h1 className="title">Projects</h1>
           <h4>What I have created</h4>
@@ -32,7 +32,7 @@ const Projects = () => {
                     <p>
                       <strong>{name}</strong>
                     </p>
-                    <p>{info}}</p>
+                    <p>{info}</p>
                     <a
                       style={{ margin: "1rem" }}
                       href="#"
