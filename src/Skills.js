@@ -1,20 +1,28 @@
 import React from "react";
 import { skills } from "./data";
-// import styled from "styled-components";
+import Experience from "./Experience";
 const Skills = () => {
   return (
-    <div className="container-fluid padding">
-      <div className="row text-center padding justify-content-center">
+    <div
+      id="portfolio"
+      className="container-fluid text-center bg-grey slideanim"
+    >
+      <h1 className="title">Technical Skills/Experience</h1>
+      <div className="row">
         {skills.map((skill) => {
           const { id, name, icon, text } = skill;
           return (
-            <div key={id} className="col-xs">
-              <i className={name + " skill-icon"}>{icon}</i>
-              <h4>{name}</h4>
+            <div className="col-xs-2" key={id}>
+              <span className="logo-small">{icon}</span>
+              <h6>{name}</h6>
             </div>
           );
         })}
       </div>
+      <div className="text-left">
+        <Experience />
+      </div>
+      <br />
     </div>
   );
 };

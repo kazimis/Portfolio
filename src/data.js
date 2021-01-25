@@ -10,9 +10,11 @@ import {
   SiAngular,
   SiJquery,
   SiTypescript,
+  SiWordpress,
 } from "react-icons/si";
 
 import { DiNodejsSmall } from "react-icons/di";
+import Golang from "./img/Golang.svg";
 
 export const links = [
   {
@@ -202,4 +204,5 @@ export const skills = [
   { id: 9, name: "AngularJs", icon: <SiAngular />, text: "test" },
   { id: 10, name: "jQuery", icon: <SiJquery />, text: "test" },
   { id: 11, name: "TypeScript", icon: <SiTypescript />, text: "test" },
+  { id: 12, name: "WordPress", icon: <SiWordpress />, text: "test" },
 ];

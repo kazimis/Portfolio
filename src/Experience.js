@@ -7,44 +7,42 @@ const Experience = () => {
   const { company, dates, duties, title } = jobsData[value];
   return (
     <>
-      <div className="container-fluid padding">
-        <div className="row title text-center">
-          <div className="col-12">
-            <h2>Experience</h2>
-          </div>
-          <hr></hr>
+      <div className="custom-container">
+        <div class="btn-group" role="group">
+          {jobsData.map((item, index) => {
+            return (
+              <button
+                type="button"
+                className="btn btn-primary btn-xs"
+                key={item.id}
+                onClick={() => setValue(index)}
+              >
+                <h3>{item.company}</h3>
+              </button>
+            );
+          })}
         </div>
+        <article className="job-info">
+          <h4
+            style={{
+              fontWeight: "bold",
+              color: "black",
+            }}
+          >
+            {title}
+          </h4>
+          <h4> {company}</h4>
+          <p className="job-date">{dates}</p>
+          {duties.map((duty, index) => {
+            return (
+              <div key={index} className="job-desc">
+                <FaAngleDoubleRight className="job-icon" />
+                <p>{duty}</p>
+              </div>
+            );
+          })}
+        </article>
       </div>
-      <section className="section">
-        <div className="jobs-center">
-          <div className="btn-containder">
-            {jobsData.map((item, index) => {
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => setValue(index)}
-                  className={`job-btn ${index === value && "active-btn"}`}
-                >
-                  <h3>{item.company}</h3>
-                </button>
-              );
-            })}
-          </div>
-          <article className="job-info">
-            <h3>{title}</h3>
-            <h4> {company}</h4>
-            <p className="job-date">{dates}</p>
-            {duties.map((duty, index) => {
-              return (
-                <div key={index} className="job-desc">
-                  <FaAngleDoubleRight className="job-icon" />
-                  <p>{duty}</p>
-                </div>
-              );
-            })}
-          </article>
-        </div>
-      </section>
     </>
   );
 };
