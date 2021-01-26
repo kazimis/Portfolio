@@ -110,10 +110,10 @@ about
 .about .desc {
   padding: 2em;
 
-  border-left: 4px solid rgb(126, 45, 219);
+  border-left: 4px solid rgba(0, 0, 0, 0.8);
 }
 .about .desc h3 {
-  color: rgb(126, 45, 219);
+  color: rgba(0, 0, 0, 0.8);
 }
 .about .desc p {
   line-height: 2;

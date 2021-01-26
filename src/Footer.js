@@ -29,7 +29,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-xs-6 col-md-3">
+            <div id="contact" className="col-xs-6 col-md-3">
               <h6>Contact</h6>
               <ul className="footer-links">
                 <li>
