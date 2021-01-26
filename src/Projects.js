@@ -1,5 +1,5 @@
 import React from "react";
-import projects, { projectsData } from "./data";
+import { projectsData } from "./data";
 const Projects = () => {
   return (
     <>
@@ -22,12 +22,12 @@ const Projects = () => {
         <div className="custom-container">
           <h1 className="title">Projects</h1>
           <h4>What I have created</h4>
-          <div class="row text-center slideanim">
+          <div className="row text-center slideanim">
             {projectsData.map((project) => {
               const { id, image, info, name } = project;
               return (
-                <div class="col-sm-4">
-                  <div class="thumbnail">
+                <div key={id} className="col-sm-4">
+                  <div className="thumbnail">
                     <img src={image} alt="name" width="400" height="300" />
                     <p>
                       <strong>{name}</strong>

@@ -1,5 +1,4 @@
 import React from "react";
-import Skills from "./Skills";
 const Jumbotron = () => {
   return (
     <div className="jumbotron text-center">

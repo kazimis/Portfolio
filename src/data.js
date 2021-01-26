@@ -14,7 +14,6 @@ import {
 } from "react-icons/si";
 
 import { DiNodejsSmall } from "react-icons/di";
-import Golang from "./img/Golang.svg";
 
 export const links = [
   {
@@ -49,21 +48,25 @@ export const social = [
     id: 1,
     url: "https://www.facebook.com",
     icon: <FaFacebook />,
+    name: "facebook",
   },
   {
     id: 2,
     url: "https://www.twitter.com",
     icon: <FaTwitter />,
+    name: "twitter",
   },
   {
     id: 3,
     url: "https://www.linkedin.com/in/sarajuddin-kazimi/",
     icon: <FaLinkedin />,
+    name: "linkedin",
   },
   {
     id: 4,
     url: "https://www.github.com/kazimis",
     icon: <AiFillGithub />,
+    name: "github",
   },
 ];
 
@@ -166,7 +169,6 @@ export const skills = [
     id: 1,
     name: "HTML",
     icon: <AiFillHtml5 />,
-    text: "Used latest version of HTML5",
   },
   {
     id: 2,
@@ -178,7 +180,6 @@ export const skills = [
     id: 3,
     name: "C++",
     icon: <SiCplusplus />,
-    text: "Used latest version of HTML5",
   },
 
   {
@@ -190,14 +191,12 @@ export const skills = [
     id: 5,
     name: "Javascript",
     icon: <SiJavascript />,
-    text: "Used latest version of HTML5",
   },
 
   {
     id: 6,
     name: "Python",
     icon: <SiPython />,
-    text: "Used latest version of Python",
   },
   { id: 7, name: "ReactJs", icon: <SiReact />, text: "React Library" },
   { id: 8, name: "NodeJs", icon: <DiNodejsSmall />, text: "test" },

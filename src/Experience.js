@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { jobsData } from "./data";
 const Experience = () => {
@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <>
       <div className="custom-container">
-        <div class="btn-group" role="group">
+        <div className="btn-group" role="group">
           {jobsData.map((item, index) => {
             return (
               <button

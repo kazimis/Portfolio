@@ -10,7 +10,7 @@ const Skills = () => {
       <h1 className="title">Technical Skills/Experience</h1>
       <div className="row">
         {skills.map((skill) => {
-          const { id, name, icon, text } = skill;
+          const { id, name, icon } = skill;
           return (
             <div className="col-xs-2" key={id}>
               <span className="logo-small">{icon}</span>

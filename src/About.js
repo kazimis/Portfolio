@@ -7,11 +7,11 @@ const About = () => {
         <div className="text-center title">
           <h1>About Me</h1>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-          <img src={img} class="img-fluid" />
+        <div className="col-lg-4 col-md-4 col-sm-12 text-center">
+          <img src={img} className="img-fluid" alt="profile" />
           <span>S.Web Developer</span>
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 desc">
+        <div className="col-lg-8 col-md-8 col-sm-12 desc">
           <h3>Saraj Kazimi</h3>
           <p>
             Becoming a computer scientist was my dream. My interset to become a

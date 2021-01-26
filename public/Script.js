@@ -35,4 +35,6 @@ $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
     );
   } // End if
 });
-console.log("runing");
+$(".navbar-nav>li>a").on("click", function () {
+  $(".navbar-collapse").collapse("hide");
+});
