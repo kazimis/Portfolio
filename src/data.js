@@ -94,45 +94,11 @@ export const slidersData = [
 export const projectsData = [
   {
     id: 1,
-    name: "Tetris Game",
-    image:
-      "https://i.pinimg.com/originals/3f/a9/fe/3fa9fe249f516ff87909b587f7fefc8e.jpg",
-    info: "Tetris game using WebGl and Javascript",
-  },
-  {
-    id: 2,
-    name: "C++",
-    image:
-      "https://image.downhdwalls.com/photos/1024x768/c-screengrab-1024x768.jpeg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
-  },
-  {
-    id: 3,
-    name: "C++",
-    image:
-      "https://image.downhdwalls.com/photos/1024x768/c-screengrab-1024x768.jpeg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
-  },
-  {
-    id: 4,
-    name: "C++",
-    image:
-      "https://image.downhdwalls.com/photos/1024x768/c-screengrab-1024x768.jpeg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
-  },
-  {
-    id: 5,
-    name: "C++",
-    image:
-      "https://image.downhdwalls.com/photos/1024x768/c-screengrab-1024x768.jpeg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
-  },
-  {
-    id: 6,
-    name: "C++",
-    image:
-      "https://image.downhdwalls.com/photos/1024x768/c-screengrab-1024x768.jpeg",
-    info: "Function call using [Napi] to add [C++] addon in [Nodejs]. ",
+    name: "C++/NodeJS ",
+    image: "./img/huffcompress.jpg",
+    info: "Function call using N-API to add C++ addon in NodeJS. ",
+    link: "http://huffcompress.herokuapp.com/",
+    github: "https://github.com/kazimis/Node.JS-Huffman-Encoding-App",
   },
 ];
 

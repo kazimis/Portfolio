@@ -49,7 +49,7 @@ const Footer = () => {
               <p className="copyright-text">
                 Copyright &copy; {new Date().getFullYear()} All Rights Reserved
                 by
-                <a href="#"> Samlpe</a>.
+                <a href="https://saraj-kazimi.netlify.app"> Samlpe</a>.
               </p>
             </div>
 

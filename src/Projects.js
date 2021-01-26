@@ -24,7 +24,7 @@ const Projects = () => {
           <h4>What I have created</h4>
           <div className="row text-center slideanim">
             {projectsData.map((project) => {
-              const { id, image, info, name } = project;
+              const { id, image, info, name, link, github } = project;
               return (
                 <div key={id} className="col-sm-4">
                   <div className="thumbnail">
@@ -35,13 +35,13 @@ const Projects = () => {
                     <p>{info}</p>
                     <a
                       style={{ margin: "1rem" }}
-                      href="#"
+                      href={github}
                       className="btn btn-info"
                     >
                       Source code
                     </a>
-                    <a href="#" className="btn btn-info">
-                      Link
+                    <a href={link} className="btn btn-info">
+                      Live Demo
                     </a>
                   </div>
                 </div>

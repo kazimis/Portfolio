@@ -39,6 +39,16 @@ h4 {
 .bg-grey {
   background-color: #f6f6f6;
 }
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
 /*
 =======
 navbar
@@ -420,22 +430,6 @@ Footer
   color: #fff;
 }
 
-/* footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #f4511e;
-} */
-.slideanim {
-  visibility: hidden;
-}
-.slide {
-  animation-name: slide;
-  -webkit-animation-name: slide;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  visibility: visible;
-}
-
 @keyframes slide {
   0% {
     opacity: 0;
@@ -460,6 +454,9 @@ Footer
 @media screen and (max-width: 992px) {
   .site-footer [class^="col-"] {
     margin-bottom: 30px;
+  }
+  .thumbnail .btn {
+    font-size: 10px;
   }
 }
 
@@ -495,6 +492,9 @@ Footer
   .site-footer .copyright-text,
   .site-footer .social-icons {
     text-align: center;
+  }
+  .thumbnail p {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 480px) {
