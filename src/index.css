@@ -361,6 +361,20 @@ Footer
 }
 
 /*end Footer*/
+
+/*
+======
+chat boot
+======
+*/
+.rcw-conversation-container .rcw-header {
+  background-color: red;
+}
+
+/* .rcw-message > .rcw-response {
+  background-color: rgb(255, 11, 11);
+  color: white;
+} */
 .logo-small {
   color: rgb(126, 45, 219);
   font-size: 30px;

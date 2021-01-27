@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import FixedBg from "./FixedBg";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import Chat from "./Chat";
 
 // import Carousel from "./Carousel";
 //
@@ -36,6 +37,7 @@ function App() {
       <FixedBg />
       <Projects />
       <Footer />
+      <Chat />
     </>
   );
 }
