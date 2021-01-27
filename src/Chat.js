@@ -8,7 +8,7 @@ const Chat = () => {
 
   const handleNewUserMessage = (message) => {
     console.log(`New message incoming! ${message}`);
-    addResponseMessage("00response");
+    addResponseMessage("This feature is not working");
   };
   return (
     <container>
