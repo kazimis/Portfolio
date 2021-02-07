@@ -12,7 +12,7 @@ const Projects = () => {
             return (
               <div key={id} className="col-sm-4">
                 <div className="thumbnail">
-                  <img src={image} alt="name" width="400" height="300" />
+                  <img src={image} alt="name" width="300" height="300" />
                   <p>
                     <strong>{name}</strong>
                   </p>

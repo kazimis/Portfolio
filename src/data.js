@@ -94,11 +94,19 @@ export const slidersData = [
 export const projectsData = [
   {
     id: 1,
-    name: "C++/NodeJS ",
+    name: "File Compressor",
     image: "./img/huffcompress.jpg",
     info: "Function call using N-API to add C++ addon in NodeJS. ",
     link: "http://huffcompress.herokuapp.com/",
     github: "https://github.com/kazimis/Node.JS-Huffman-Encoding-App",
+  },
+  {
+    id: 2,
+    name: "Tetris Game ",
+    image: "./img/tetris.jpg",
+    info: "Tetris using Javascript and WebGL. ",
+    link: "https://my-tetris-01.netlify.app/",
+    github: "https://github.com/kazimis/Tetris-Game-WebGL",
   },
 ];
 

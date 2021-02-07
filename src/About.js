@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="row about">
       <div className="custom-container">
         <div className="text-center title">
-          <h1>About Me</h1>
+          <h1 className="title">About Me</h1>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-12 text-center">
           <img src={img} className="img-fluid" alt="profile" />
