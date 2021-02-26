@@ -14,7 +14,7 @@ const About = () => {
         <div className="col-lg-8 col-md-8 col-sm-12 desc">
           <h3>Saraj Kazimi</h3>
           <p>
-            Becoming a computer scientist was my dream. My interset to become a
+            Becoming a computer scientist was my dream. My interest to become a
             computer scientist and software development roots in my passion to
             solve real life problems. Throughout my past four years at SFU, I
             worked on group projects as well as personal projects. In my
