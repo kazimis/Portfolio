@@ -33,7 +33,7 @@ const Footer = () => {
               <h6>Contact</h6>
               <ul className="footer-links">
                 <li>
-                  <a href="#">(+1) Phone number on request</a>
+                  <a href="#">Phone number on request</a>
                 </li>
                 <li>
                   <a href="http://www.gmail.com/">sarajkazimi123@gmail.com</a>

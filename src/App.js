@@ -26,9 +26,9 @@ function App() {
       <Jumbotron />
       <About />
       <Skills />
-      <FixedBg />
-      <Projects />
       <Footer />
+      {/* <FixedBg />
+       */}
     </>
   );
 }
