@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import About from "./About";
 import Skills from "./Skills";
-import FixedBg from "./FixedBg";
 import Projects from "./Projects";
 import Footer from "./Footer";
 
@@ -26,9 +25,9 @@ function App() {
       <Jumbotron />
       <About />
       <Skills />
+      <Projects />
+      {/* <SkillSlider /> */}
       <Footer />
-      {/* <FixedBg />
-       */}
     </>
   );
 }

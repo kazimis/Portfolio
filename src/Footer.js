@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-6">
               <h6>About</h6>
               <p className="text-justify">
-                saraj-kazimi.netlify.app.com is my portfolio to showcase all my
+                kazimis.netlify.app.com is my portfolio to showcase all my
                 personal projects. This porjects build concepts in different
                 programming languages which include C, C++, Java, HTML, CSS,
                 Bootstrap, JavaScript, Android, SQL and Algorithm.
@@ -49,7 +49,7 @@ const Footer = () => {
               <p className="copyright-text">
                 Copyright &copy; {new Date().getFullYear()} All Rights Reserved
                 by
-                <a href="https://saraj-kazimi.netlify.app"> Samlpe</a>.
+                <a href="https://kazimis.netlify.app"> Samlpe</a>.
               </p>
             </div>
 

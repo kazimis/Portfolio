@@ -11,7 +11,7 @@ const Skills = () => {
           {skills.map((skill) => {
             const { id, name, icon } = skill;
             return (
-              <div class="col-lg-3 col-md-6 text-center">
+              <div class="col-lg-2 col-md-4 col-sm-6 text-center">
                 <div class="mt-5">
                   <i className="icon text-primary mb-4">{icon}</i>
                   {/* <i class="fas fa-4x fa-gem text-primary mb-4"></i> */}

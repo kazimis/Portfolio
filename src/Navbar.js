@@ -35,8 +35,8 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">
-                Portfolio
+              <a class="nav-link js-scroll-trigger" href="#projects">
+                Projects
               </a>
             </li>
             <li class="nav-item">

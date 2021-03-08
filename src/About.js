@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./img/saraj.jfif";
+import img from "./assets/img/saraj.jfif";
 const About = () => {
   return (
     <section className="page-section bg-primary" id="about">
@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <a
               className="btn btn-light btn-xl js-scroll-trigger"
-              href="#services"
+              href="#projects"
             >
               Explore my projects!
             </a>
